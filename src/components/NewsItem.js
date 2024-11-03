@@ -29,7 +29,7 @@ const n=()=>{
    <Badge bg="dark" className='bad'>{source}</Badge>
 
   
-      <Card.Img variant="top" src={imageUrl}   style={{ width: '400px', height: '200px' }}/>
+      <Card.Img variant="top" src={imageUrl}/>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
