@@ -72,6 +72,7 @@ const News = (props) => {
             <NewsItem
               title={element.title}
               description={element.description}
+              
               imageUrl={element.urlToImage || nn}
               newsUrl={element.url}
               date={element.publishedAt}
