@@ -55,13 +55,7 @@ const News = (props) => {
     // eslint-disable-next-line
   }, [page, props.category, props.country]);
 
-  const handleNext = () => {
-    setPage(page+1);
-  };
-
-  const handlePrev = () => {
-    setPage(page-1);
-  };
+  
 
   return (
     
@@ -77,7 +71,7 @@ const News = (props) => {
           <div className="col-md-4" key={element.url}>
             <NewsItem
               title={element.title}
-              description={element.description}
+              description={ element.description.slice(0,100)}
               imageUrl={element.urlToImage || nn}
               newsUrl={element.url}
               date={element.publishedAt}
@@ -88,25 +82,7 @@ const News = (props) => {
       </div>
 
        
-      <div className="container d-flex justify-content-between ">
-        <Button
-        className="c"
-          variant="secondary my-2 btn btn-dark"
-          disabled={page <= 1}
-          onClick={handlePrev}
-        >
-          Previous
-        </Button>
-        
-        <Button
-        className="c"
-          variant="secondary my-2 btn btn-dark"
-          disabled={page + 1 > Math.ceil(totalArticles / props.pageSize)}
-          onClick={handleNext}
-        >
-          Next
-        </Button>
-      </div>
+ 
     </div>
   );
 };
