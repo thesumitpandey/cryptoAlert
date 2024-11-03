@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/cryptoAlert/static/css/main.249c30f2.css",
-    "main.js": "/cryptoAlert/static/js/main.64170af3.js",
+    "main.js": "/cryptoAlert/static/js/main.88d7575c.js",
     "static/js/453.4aaf3f94.chunk.js": "/cryptoAlert/static/js/453.4aaf3f94.chunk.js",
     "static/media/nn.webp": "/cryptoAlert/static/media/nn.603145dc04975e19e3b9.webp",
     "index.html": "/cryptoAlert/index.html",
     "main.249c30f2.css.map": "/cryptoAlert/static/css/main.249c30f2.css.map",
-    "main.64170af3.js.map": "/cryptoAlert/static/js/main.64170af3.js.map",
+    "main.88d7575c.js.map": "/cryptoAlert/static/js/main.88d7575c.js.map",
     "453.4aaf3f94.chunk.js.map": "/cryptoAlert/static/js/453.4aaf3f94.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.249c30f2.css",
-    "static/js/main.64170af3.js"
+    "static/js/main.88d7575c.js"
   ]
 }
