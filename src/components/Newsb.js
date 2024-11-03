@@ -71,7 +71,7 @@ const News = (props) => {
           <div className="col-md-4" key={element.url}>
             <NewsItem
               title={element.title}
-              description={element.description.slice(0,100)}
+              description={element.description}
               imageUrl={element.urlToImage || nn}
               newsUrl={element.url}
               date={element.publishedAt}
