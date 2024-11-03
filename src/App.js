@@ -27,7 +27,7 @@ const App = () => {
     <div className='a'>
       <HashRouter> 
         <NavBar />
-        <LoadingBar color='#f11946' progress={progress} />
+        <LoadingBar color='blue' progress={progress} />
         <Routes>
           <Route exact path='/' element={<News set={set} key='general' api={api} pageSize={12} country='us' category='General' />} />
           <Route exact path='/Business' element={<Newsb set={set} key='business' api={api} pageSize={12} country='us' category='Bitcoin ' />} />
